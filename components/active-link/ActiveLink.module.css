@@ -1,0 +1,11 @@
+
+@layer components {
+    .link{
+        @apply hover:underline hover:text-blue-400  mr-2 transition-normal;
+
+    }
+
+    .active-link{
+        @apply text-blue-500;
+    }
+}
